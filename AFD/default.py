@@ -8,6 +8,9 @@ if __name__ == "__main__":
     F = 0
     M = (Q, Sigma, delta, q0, F)
     
-    cadeia = 0
-    
-    AFD(M, cadeia)
+    while (True):
+        cadeia = input("(:q para sair) Cadeia: ")
+        
+        if cadeia == ':q': break
+        
+        print(f"Resultado => {AFD(M, cadeia)}")
