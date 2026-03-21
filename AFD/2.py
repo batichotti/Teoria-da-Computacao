@@ -13,7 +13,7 @@ if __name__ == "__main__":
     M = (Q, Sigma, delta, q0, F)
     
     while (True):
-        print("(:q para sair) ")
+        print("(Digite ':q' para sair) ")
         cadeia = input("Cadeia: ")
         
         if cadeia == ':q': break
